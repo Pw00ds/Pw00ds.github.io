@@ -1,4 +1,3 @@
-Pw00ds.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,64 +6,83 @@ Pw00ds.github.io
   <title>Pw00ds Tech-Compositor</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #e6ecf0);
+      color: #333;
     }
 
     header {
-      background-color: #222;
-      color: white;
-      padding: 20px;
+      background-color: #1a1a1a;
+      color: #fff;
       text-align: center;
+      padding: 40px 20px 20px;
     }
 
     header img {
-      height: 60px;
-      vertical-align: middle;
+      width: 80px;
+      height: auto;
+      margin-bottom: 10px;
     }
 
     nav {
-      background-color: #333;
-      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      background-color: #2c3e50;
+      padding: 10px 0;
     }
 
     nav a {
-      float: left;
-      display: block;
       color: white;
-      text-align: center;
-      padding: 14px 20px;
       text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s ease;
     }
 
     nav a:hover {
-      background-color: #575757;
+      color: #f9d342;
     }
 
     main {
+      max-width: 900px;
+      margin: 30px auto;
       padding: 20px;
     }
 
     section {
-      margin-bottom: 40px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #2c3e50;
     }
 
     footer {
-      background-color: #222;
-      color: white;
+      background-color: #1a1a1a;
+      color: #ccc;
       text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #2980b9;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="https://via.placeholder.com/100x60?text=Logo" alt="Pw00ds Logo" />
+    <img src="https://via.placeholder.com/80x60?text=Logo" alt="Pw00ds Logo" />
     <h1>Pw00ds Tech-Compositor</h1>
     <p>Your source for tech tools and creative composition</p>
   </header>
@@ -78,22 +96,24 @@ Pw00ds.github.io
   <main>
     <section id="about">
       <h2>About</h2>
-      <p>Pw00ds Tech-Compositor combines innovative tech with the power of creativity. Explore how digital tools can enhance your composition process.</p>
+      <p>Pw00ds Tech-Compositor is where innovation and creativity intersect. We're crafting digital tools to support thinkers, makers, and educators in the art of composition.</p>
     </section>
 
     <section id="tools">
       <h2>Tools</h2>
-      <p>We’re building a library of tools to help writers, educators, and tech enthusiasts compose with clarity and confidence. More coming soon!</p>
+      <p>Explore our developing suite of writing and thinking tools, built to empower tech-savvy creators. Tools will be launched soon—stay tuned!</p>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Have questions or ideas? Reach out to us at <a href="mailto:info@pw00ds.com">info@pw00ds.com</a>.</p>
+      <p>Have questions or feedback? Reach us at <a href="mailto:info@pw00ds.com">info@pw00ds.com</a>.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Pw00ds Tech-Compositor</p>
+    <p>&copy; 2025 Pw00ds Tech-Compositor. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
+
